@@ -1,8 +1,8 @@
-Russian = int(input("Введите количество баллов по русскому языку: "))
-Math = int(input("Введите количество баллов по математике: "))
-Comp_science = int(input("Введите количество баллов по информатике: "))
+russian = int(input("Введите количество баллов по русскому языку: "))
+math = int(input("Введите количество баллов по математике: "))
+comp_science = int(input("Введите количество баллов по информатике: "))
 
-if Russian >= 90 and Math >= 90 and Comp_science >= 90:
+if russian >= 90 and math >= 90 and comp_science >= 90:
     print("Поздравляю, ты поступил на бюджет!")
 else:
     print("К сожалению, ты не прошёл на бюджет.")
