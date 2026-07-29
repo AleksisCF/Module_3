@@ -1,6 +1,6 @@
 experience_points = int(input("Введите количество очков опыта: "))
 
-level = 1  # начальный уровень
+level = 1
 
 if experience_points >= 5000:
     level = 4
